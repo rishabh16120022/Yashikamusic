@@ -10,7 +10,7 @@ def start_panel(_):
             InlineKeyboardButton(
                 text="💘 𝗞𝗜𝗗𝗡𝗔𝗣 𝗠𝗘 💘", url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(text="⚡ 𝗧𝗥𝗘𝗡𝗗𝗜𝗡𝗚 𝗘𝗥𝗔 ⚡", url=f"https://t.me/Trending_Era"),
+            InlineKeyboardButton(text="✴️ 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 ✴️", url=f"https://t.me/Trending_Era"),
         ],
     ]
     return buttons
@@ -29,8 +29,6 @@ def private_panel(_):
             InlineKeyboardButton(text="⚜️ 𝗢𝗪𝗡𝗘𝗥 ⚜️", user_id=config.OWNER_ID),
             InlineKeyboardButton(text="🔰 𝗔𝗡𝗬 𝗤𝗨𝗘𝗥𝗬 ❓🔰", url=f"https://t.me/Abhi_rss"),
         ],
-        [
-            InlineKeyboardButton(text="✴️ 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 ✴️", url=f"https://t.me/Trending_Era"),
-        ],
+        
     ]
     return buttons
